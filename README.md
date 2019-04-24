@@ -1,6 +1,6 @@
 # vim-dms
 
-DMS (Dungeon Master Script) syntax file for Vim.
+DMS (Dungeon Master Script) Syntax Highlighting for Vim.
 
 #### Install
 
