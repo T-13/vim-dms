@@ -20,6 +20,7 @@ syn match   dmsVariable "[a-z][a-zA-Z0-9]*"
 
 " Data Types
 syn match   dmsNumber   display "\d\+\(u\=l\{0,2}\|ll\=u\)\>"
+syn region  dmsString   start=+L\="+ end=+"+
 
 
 let b:current_syntax = "dms"
@@ -29,3 +30,4 @@ hi def link dmsFunction Function
 hi def link dmsSection  Macro
 hi def link dmsVariable Special
 hi def link dmsNumber   Number
+hi def link dmsString   String
